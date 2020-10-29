@@ -14,5 +14,9 @@ The TfidfVectorizer converts a collection of raw documents into a matrix of TF-I
 ### What is a PassiveAggressiveClassifier?
 Passive Aggressive algorithms are online learning algorithms. Such an algorithm remains passive for a correct classification outcome, and turns aggressive in the event of a miscalculation, updating and adjusting. Unlike most other algorithms, it does not converge. Its purpose is to make updates that correct the loss, causing very little change in the norm of the weight vector.
 
+## Now we are good to go.
+You don't have to worry, I have included the steps in the main jupyter file too.
 
-
+## Conclusion 
+Today, we learned to detect fake news with Python. We took a political dataset, implemented a TfidfVectorizer, initialized a PassiveAggressiveClassifier, and fit our model. We ended up obtaining an accuracy of 92.82% in magnitude.
+Hope you enjoyed this Project.
